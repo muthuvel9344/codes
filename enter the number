@@ -1,0 +1,12 @@
+public class switch_case{
+    public class void main(String[]args){
+        Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+        System.out.println("Enter second value");
+        do{
+            System.out.println("number:"+num);
+            num++;
+        }
+            while(num<=10);
+        }
+    }
