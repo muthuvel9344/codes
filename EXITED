@@ -1,0 +1,19 @@
+ import java.util.scanner;
+  public class sample{
+    public static void main(String[]args);{
+    Scanner sc=new Scanner(System.in);
+       int coice;
+       int count=1;
+       int total=10;
+    do{
+        System.out.println("enter the product value:");
+        int a=sc.nextInt();
+        total=total+a;
+        System.out.println(count+"continue?(1to continue/0 to exit):")
+        choice=sc.nextInt();
+        count++;
+    }while(choice!=0);
+    System.out.println("total amount:"+total);
+    System.out.println("Exited");
+    sc.done();
+    }}
