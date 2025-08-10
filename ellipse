@@ -1,0 +1,13 @@
+public class EllipseArea {
+
+    public static void main(String[] args) {
+        double semiMajorAxis = 5.0; 
+        double semiMinorAxis = 3.0; 
+        double area = calculateEllipseArea(semiMajorAxis, semiMinorAxis);
+        System.out.println("Area of the ellipse: " + area);
+    }
+
+    public static double calculateEllipseArea(double a, double b) {
+        return Math.PI * a * b;
+    }
+}
