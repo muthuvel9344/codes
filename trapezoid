@@ -1,0 +1,18 @@
+import java.io.*;
+public class sample {
+    public static void main(String[] args)
+    {
+        double base_1 = 10.00;
+
+        double base_2 = 20.00;
+
+        double height = 50.00;
+
+        
+        double area_of_trapezium
+            = ((base_1 + base_2) * height) / 2;
+
+        System.out.println("Area of trapezium:"
+                           + area_of_trapezium);
+    }
+}
