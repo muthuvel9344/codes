@@ -1,0 +1,20 @@
+public class SquareAreaCalculator {
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the side length of the square: ");
+
+
+        double sideLength = input.nextDouble();
+
+
+        double area = sideLength * sideLength;
+
+        
+        System.out.println("The area of the square with side length " + sideLength + " is: " + area);
+
+    
+        input.close();
+    }
+}
