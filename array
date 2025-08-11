@@ -1,0 +1,23 @@
+public class sample {
+    public static void main(String[] args) {
+
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        
+        System.out.println("Elements of the array:");
+        for (int i = 0; i < numbers.length; i++) {
+        }
+
+       
+        numbers[2] = 35; 
+
+        System.out.println("\nArray after mod:");
+        for (int num : numbers) { 
+            System.out.println(num);
+        }
+
+       
+        int arrayLength = numbers.length;
+        System.out.println("\nLength of the array: " + arrayLength);
+    }
+}
