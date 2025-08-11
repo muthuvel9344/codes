@@ -1,0 +1,11 @@
+public class sample{
+    public static void  main(String[]args){
+        int[]marks={ 34,98,67,45,73};
+         float[]age={18,19,20,21,22};
+         String[]sub={"maths","english","tamil","physics","java"};
+         System.out.println(marks[0]);
+         System.out.println(age[3]);
+        System.out.println(sub[4]);
+        
+        }
+    }
