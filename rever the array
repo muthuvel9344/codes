@@ -1,0 +1,19 @@
+public class sample{
+    public static void main(String[]args){
+        int array[]={1,2 ,3,4};
+        int n=3;
+        for(int i=0;i<n;i++){
+            int lastelement=array[array.length-1];
+        for(int j=array.length-1;j>0;j--){
+            array[j]=array[j-1];
+        }
+            array[0]=lastelement;
+            }
+        
+        System.out.println("array after rotate");
+        for (int i=0; i<array.length;i++){
+             System.out.println(array[i]+" ");
+        }
+            }
+        }
+    
