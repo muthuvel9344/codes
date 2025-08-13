@@ -1,0 +1,8 @@
+public class sample {
+    public static void main(String[] args) {
+        String a="ja va";
+        String nospaces=a.replaceall("\\s+","");
+        System.out.println("original word"+a);
+        System.out.println("without spaces:"+nospaces);
+    }}
+        
