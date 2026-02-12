@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int N;
+    int sum=0;
+    int counter=1;
+    N=4;
+    while(counter<=N){
+        sum+=counter;
+        counter++;
+    }
+    printf("%d\n",sum);
+    return 0;
+    }
